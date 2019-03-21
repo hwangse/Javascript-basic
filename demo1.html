@@ -6,14 +6,10 @@
 <body>
 	<script type="text/javascript">
 		var id=prompt("아이디를 입력해주세요.");
-		if(id==="hwangse"){
-			var password=prompt("비밀번호를 입력해주세요.");
-			if(password==1816){
-				alert("identification verified");
-			}
-			else{
-				alert("identification denied");
-			}
+		var password=prompt("비밀번호를 입력해주세요.");
+		//alert(typeof password);
+		if(id==="hwangse" && password==1816){
+			alert("identification verified");
 		}
 		else{
 			alert("identification denied");
