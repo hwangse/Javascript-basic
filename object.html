@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<ul>
+		<script type="text/javascript">
+
+		var grades={
+			'list' : {'egoing':10,'k8805':8,'sorialgi':80},
+			'show' : function(){
+				for(key in this.list){
+					document.write(this.list[key]+
+						'<br/>');
+				}
+			}
+		}
+		grades['show']();
+
+
+		/*
+		var grades = {'egoing': 10, 'k8805': 6, 'sorialgi': 80};
+		
+		for(key in grades){
+			document.write('<li>key : '+key+' value : '+grades[key]+'</li>');
+		}
+		*/
+	</script>
+	</ul>
+</body>
+</html>
