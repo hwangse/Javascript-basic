@@ -6,11 +6,14 @@
 <body>
 	<script type="text/javascript">
 		function get_members(){
-			return ['sehyun','suyeon','jiyoung','jeewon'];
+			return ['sehyun','suyeon','jiyoung','jeewon','haha','kalkal'];
 		}
 		var members=get_members();
-		a=members[0].toUpperCase();
-		alert(a);
+		
+		for(var i=0;i<members.length;i++){
+			document.write(members[i].toUpperCase()+"<br/>");
+		}
+
 	</script>
 </body>
 </html>
