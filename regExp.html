@@ -5,8 +5,19 @@
 </head>
 <body>
 	<script type="text/javascript">
-		var xi=/a/;
-		"Abcde".match(xi);
+		// var xi=/a/;
+		// "Abcde".match(xi);
+		var grades={
+			'list':{'egoing':90,'k8805':70,'sehyun':100},
+			'show':function(){
+				for(key in this.list){
+					document.write(this.list[key]
+						+'<br/>');
+				}
+			}
+
+		}
+		grades.show();
 	</script>
 </body>
 </html>
